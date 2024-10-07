@@ -15,7 +15,7 @@ class Main {
         return cnt;
     }
 
-    public int solution(int n, int m, int[] arr) {
+    public int solution(int m, int[] arr) {
         int answer = 0;
         int lt = Arrays.stream(arr).max().getAsInt();
         int rt = Arrays.stream(arr).sum();
@@ -36,6 +36,6 @@ class Main {
         int m = kb.nextInt();
         int[] arr = new int[n];
         for (int i = 0; i < n; i++) arr[i] = kb.nextInt();
-        System.out.println(T.solution(n, m, arr));
+        System.out.println(T.solution(m, arr));
     }
 }
