@@ -26,9 +26,9 @@ class Main {
         Scanner kb = new Scanner(System.in);
         n = kb.nextInt();
         m = kb.nextInt();
-        graph = new ArrayList<ArrayList<Integer>>();
+        graph = new ArrayList<>();
         for (int i = 0; i <= n; i++) {
-            graph.add(new ArrayList<Integer>());
+            graph.add(new ArrayList<>());
         }
         ch = new int[n + 1];
         for (int i = 0; i < m; i++) {
