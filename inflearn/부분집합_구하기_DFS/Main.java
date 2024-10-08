@@ -1,7 +1,5 @@
 package ps.inflearn.부분집합_구하기_DFS;
 
-import java.util.Scanner;
-
 class Main {
     static int n;
     static int[] ch;
