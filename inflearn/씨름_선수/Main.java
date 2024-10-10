@@ -19,7 +19,7 @@ class Boby implements Comparable<Boby> {
 }
 
 class Main {
-    public int solution(ArrayList<Boby> arr, int n) {
+    public int solution(ArrayList<Boby> arr) {
         int cnt = 0;
         Collections.sort(arr);
         int max = Integer.MIN_VALUE;
@@ -42,6 +42,6 @@ class Main {
             int w = kb.nextInt();
             arr.add(new Boby(h, w));
         }
-        System.out.println(T.solution(arr, n));
+        System.out.println(T.solution(arr));
     }
 }
