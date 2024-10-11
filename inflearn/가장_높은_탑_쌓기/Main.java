@@ -25,7 +25,7 @@ class Main {
     public int solution(ArrayList<Brick> arr) {
         int answer;
         Collections.sort(arr);
-        dy[0] = arr.get(0).h;
+        dy[0] = arr.getFirst().h;
         answer = dy[0];
         for (int i = 1; i < arr.size(); i++) {
             int max_h = 0;
