@@ -1,7 +1,6 @@
 package ps.inflearn.원더랜드_프림;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.PriorityQueue;
 import java.util.Scanner;
 

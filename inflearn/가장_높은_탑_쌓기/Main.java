@@ -23,14 +23,14 @@ class Main {
     static int[] dy;
 
     public int solution(ArrayList<Brick> arr) {
-        int answer = 0;
+        int answer;
         Collections.sort(arr);
         dy[0] = arr.get(0).h;
         answer = dy[0];
         for (int i = 1; i < arr.size(); i++) {
             int max_h = 0;
             for (int j = i - 1; j >= 0; j--) {
-                if(arr.get(j).w > arr.get(i).w && dy[j] > max_h) {
+                if (arr.get(j).w > arr.get(i).w && dy[j] > max_h) {
                     max_h = dy[j];
                 }
             }

@@ -3,8 +3,6 @@ package ps.inflearn.최대점수_구하기_냅색_알고리즘;
 import java.util.Scanner;
 
 class Main {
-    static int[] dy;
-
     public static void main(String[] args) {
         Scanner kb = new Scanner(System.in);
         int n = kb.nextInt();
