@@ -50,7 +50,7 @@ class Main {
         m = kb.nextInt();
         graph = new ArrayList<>();
         for (int i = 0; i <= n; i++) {
-            graph.add(new ArrayList<Edge>());
+            graph.add(new ArrayList<>());
         }
         dis = new int[n + 1];
         Arrays.fill(dis, Integer.MAX_VALUE);
