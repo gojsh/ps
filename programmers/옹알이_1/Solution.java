@@ -5,14 +5,14 @@ import java.util.Scanner;
 class Solution {
     public int solution(String[] babbling) {
         int answer = 0;
-        for (int i = 0; i < babbling.length; i++) {
-            String tmp = babbling[i];
+        for (String s : babbling) {
+            String tmp = s;
             String[] word = {"aya", "ye", "woo", "ma"};
             for (String w : word) {
                 tmp = tmp.replace(w, " ");
             }
             tmp = tmp.replace(" ", "");
-            if (tmp.equals("")) answer++;
+            if (tmp.isEmpty()) answer++;
         }
         return answer;
     }
