@@ -8,7 +8,7 @@ class Solution {
         char[] c = A.toCharArray();
         int len = c.length;
         int cnt = 0;
-        String tmp = "";
+        String tmp;
         if (A.equals(B)) return answer;
         while (cnt != len) {
             tmp = String.valueOf(c[len - 1]);
