@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 class Solution {
     public int solution(int M, int N) {
-        int answer = 0;
+        int answer;
         answer = (M * N) - 1;
         return answer;
     }
