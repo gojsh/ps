@@ -1,6 +1,5 @@
 package ps.programmers.PCCE_기출문제_5번_산책;
 
-import javax.xml.transform.Source;
 import java.util.Scanner;
 
 class Solution {
