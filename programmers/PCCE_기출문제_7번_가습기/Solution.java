@@ -1,7 +1,5 @@
 package ps.programmers.PCCE_기출문제_7번_가습기;
 
-import javax.xml.transform.Source;
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 class Solution {
