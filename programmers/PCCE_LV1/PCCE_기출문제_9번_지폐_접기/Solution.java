@@ -11,7 +11,7 @@ class Solution {
         int bill_max = Math.max(bill[0], bill[1]);
         int wallet_max = Math.max(wallet[0], wallet[1]);
 
-        while (true) {
+        do {
             if (wallet_min < bill_min || wallet_max < bill_max) {
                 bill_max /= 2;
                 answer++;
@@ -21,8 +21,7 @@ class Solution {
                 bill_max = bill_min;
                 bill_min = tmp;
             }
-            if (bill_max <= wallet_max && bill_min <= wallet_min) break;
-        }
+        } while (bill_max > wallet_max || bill_min > wallet_min);
         return answer;
     }
 
