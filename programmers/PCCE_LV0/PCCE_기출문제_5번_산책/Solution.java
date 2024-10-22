@@ -1,4 +1,4 @@
-package ps.programmers.PCCE_기출문제_5번_산책;
+package ps.programmers.PCCE_LV0.PCCE_기출문제_5번_산책;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package ps.programmers.PCCE_기출문제_3번_나이_계산;
+package ps.programmers.PCCE_LV0.PCCE_기출문제_3번_나이_계산;
 
 import java.util.Scanner;
 

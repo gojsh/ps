@@ -1,4 +1,4 @@
-package ps.programmers.PCCE_기출문제_6번_물부족;
+package ps.programmers.PCCE_LV0.PCCE_기출문제_6번_물부족;
 
 import java.util.Scanner;
 

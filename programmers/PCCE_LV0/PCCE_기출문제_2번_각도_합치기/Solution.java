@@ -1,4 +1,4 @@
-package ps.programmers.PCCE_기출문제_2번_각도_합치기;
+package ps.programmers.PCCE_LV0.PCCE_기출문제_2번_각도_합치기;
 
 import java.util.Scanner;
 

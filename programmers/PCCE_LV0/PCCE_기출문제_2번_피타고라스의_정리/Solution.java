@@ -1,4 +1,4 @@
-package ps.programmers.PCCE_기출문제_2번_피타고라스의_정리;
+package ps.programmers.PCCE_LV0.PCCE_기출문제_2번_피타고라스의_정리;
 
 import java.util.Scanner;
 

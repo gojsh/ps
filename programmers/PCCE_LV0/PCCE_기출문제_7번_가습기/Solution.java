@@ -1,4 +1,4 @@
-package ps.programmers.PCCE_기출문제_7번_가습기;
+package ps.programmers.PCCE_LV0.PCCE_기출문제_7번_가습기;
 
 import java.util.Scanner;
 

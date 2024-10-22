@@ -1,4 +1,4 @@
-package ps.programmers.PCCE_기출문제_8번_창고_정리;
+package ps.programmers.PCCE_LV0.PCCE_기출문제_8번_창고_정리;
 
 import java.util.Scanner;
 

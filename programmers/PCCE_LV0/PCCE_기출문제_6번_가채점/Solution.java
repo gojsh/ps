@@ -1,4 +1,4 @@
-package ps.programmers.PCCE_기출문제_6번_가채점;
+package ps.programmers.PCCE_LV0.PCCE_기출문제_6번_가채점;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package ps.programmers.PCCE_기출문제_5번_심폐소생술;
+package ps.programmers.PCCE_LV0.PCCE_기출문제_5번_심폐소생술;
 
 import java.util.Scanner;
 

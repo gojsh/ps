@@ -1,4 +1,4 @@
-package ps.programmers.PCCE_기출문제_8번_닉네임_규칙;
+package ps.programmers.PCCE_LV0.PCCE_기출문제_8번_닉네임_규칙;
 
 import java.util.Scanner;
 

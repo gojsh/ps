@@ -1,4 +1,4 @@
-package ps.programmers.PCCE_기출문제_1번_문자_출력;
+package ps.programmers.PCCE_LV0.PCCE_기출문제_1번_문자_출력;
 
 public class Solution {
     public static void main(String[] args) {

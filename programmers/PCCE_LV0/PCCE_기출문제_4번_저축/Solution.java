@@ -1,4 +1,4 @@
-package ps.programmers.PCCE_기출문제_4번_저축;
+package ps.programmers.PCCE_LV0.PCCE_기출문제_4번_저축;
 
 import java.util.Scanner;
 
