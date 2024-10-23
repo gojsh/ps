@@ -1,9 +1,6 @@
 3
-5 3 2
-8
-A A -1 B B B B -1
-A A -1 B B B B -1
--1 -1 -1 -1 -1 -1 -1 -1
-D D -1 -1 -1 -1 E -1
-D D -1 -1 -1 -1 -1 F
-D D -1 -1 -1 -1 E -1
+yellow green blue
+blue green yellow
+yellow blue blue
+0
+1
