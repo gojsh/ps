@@ -14,6 +14,8 @@
 - 평행
 - PCCE_LV1_데이터분석
 - PCCE_LV1_공원
+- 치킨 쿠폰
+- 콜라문제
 
 **inflearn**
 - all
