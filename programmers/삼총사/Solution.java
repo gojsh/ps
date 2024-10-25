@@ -12,7 +12,7 @@ class Solution {
         return answer;
     }
 
-    void dfs(int[] number, int count, int[] ch, int startIndex) {
+    public void dfs(int[] number, int count, int[] ch, int startIndex) {
         if (count == 3) {
             int sum = Arrays.stream(ch).sum();
             if (sum == 0) answer++;
