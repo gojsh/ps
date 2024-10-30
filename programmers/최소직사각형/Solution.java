@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 class Solution {
     public int solution(int[][] sizes) {
-        int answer = 0;
+        int answer;
         int max_w = 0;
         int max_l = 0;
-        for (int i = 0; i < sizes.length; i++) {
-            int w = Math.max(sizes[i][0], sizes[i][1]);
-            int l = Math.min(sizes[i][0], sizes[i][1]);
+        for (int[] size : sizes) {
+            int w = Math.max(size[0], size[1]);
+            int l = Math.min(size[0], size[1]);
             max_w = Math.max(max_w, w);
             max_l = Math.max(max_l, l);
         }
