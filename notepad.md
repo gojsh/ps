@@ -1,6 +1,3 @@
+7
+10 100 20 150 1 100 200
 3
-yellow green blue
-blue green yellow
-yellow blue blue
-0
-1
