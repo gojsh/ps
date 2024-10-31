@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 class Solution {
     public int solution(String s) {
-        int answer = 0;
+        int answer;
         answer = Integer.parseInt(s);
         return answer;
     }
