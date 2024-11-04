@@ -20,6 +20,5 @@ class Solution {
         int n = kb.nextInt();
         s.solution(x, n);
         for (long i : s.solution(x, n)) System.out.println(i);
-        ;
     }
 }
