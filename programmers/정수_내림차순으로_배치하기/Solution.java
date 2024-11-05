@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 class Solution {
     public long solution(long n) {
-        long answer = 0;
+        long answer;
         String[] str = Long.toString(n).split("");
         Arrays.sort(str, Collections.reverseOrder());
         String s = "";
