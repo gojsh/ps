@@ -20,6 +20,6 @@ class Solution {
         Solution s = new Solution();
         Scanner kb = new Scanner(System.in);
         int x = kb.nextInt();
-        s.solution(x);
+        System.out.println(s.solution(x));
     }
 }
