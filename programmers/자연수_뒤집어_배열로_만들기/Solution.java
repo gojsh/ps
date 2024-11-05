@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 class Solution {
     public int[] solution(long n) {
-        int[] answer = {};
+        int[] answer;
         String s = Long.toString(n);
         int pos = s.length() - 1;
         answer = new int[s.length()];
@@ -20,6 +20,5 @@ class Solution {
         Scanner kb = new Scanner(System.in);
         long n = kb.nextInt();
         for (int i : s.solution(n)) System.out.println(i);
-        ;
     }
 }
