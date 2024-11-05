@@ -11,8 +11,7 @@ class Solution {
             if (s.charAt(i) == 'p' || s.charAt(i) == 'P') pc++;
             else if (s.charAt(i) == 'y' || s.charAt(i) == 'Y') yc++;
         }
-        if (pc != yc) answer = false;
-        else answer = true;
+        answer = pc == yc;
         return answer;
     }
 
