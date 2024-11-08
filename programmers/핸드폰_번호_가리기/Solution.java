@@ -9,7 +9,7 @@ class Solution {
         for (int i = 0; i < s.length(); i++) {
             answer += "*";
         }
-        answer += phone_number.substring(phone_number.length() - 4, phone_number.length());
+        answer += phone_number.substring(phone_number.length() - 4);
         return answer;
     }
 
