@@ -4,18 +4,13 @@ import java.util.Scanner;
 
 class Solution {
     public String solution(int[] food) {
-        String answer = "";
-        String str = "";
+        StringBuilder sb = new StringBuilder();
         for (int i = 1; i < food.length; i++) {
-            int cnt = 0;
-            cnt = food[i]/2;
-            for(int j = 0; j<cnt; j++)
-                str += String.valueOf(i);
+            int cnt = food[i] / 2;
+            sb.append(String.valueOf(i).repeat(cnt));
         }
-        answer += str + "0";
-        StringBuilder sb = new StringBuilder(str);
-        String reverseStr = sb.reverse().toString();
-        answer += reverseStr;
+        String answer = sb + "0";
+        answer += sb.reverse();
         return answer;
     }
 
