@@ -11,8 +11,8 @@ class Solution {
         Arrays.sort(strings, new Comparator<String>() {
             @Override
             public int compare(String s1, String s2) {
-                if(s1.charAt(n) > s2.charAt(n)) return 1;
-                else if(s1.charAt(n) < s2.charAt(n)) return -1;
+                if (s1.charAt(n) > s2.charAt(n)) return 1;
+                else if (s1.charAt(n) < s2.charAt(n)) return -1;
                 else return 0;
             }
         });
@@ -25,8 +25,8 @@ class Solution {
         Scanner kb = new Scanner(System.in);
         int l = kb.nextInt();
         String[] strings = new String[l];
-        for(int i=0; i<strings.length; i++) strings[i] = kb.next();
+        for (int i = 0; i < strings.length; i++) strings[i] = kb.next();
         int n = kb.nextInt();
-        for(String i : s.solution(strings, n)) System.out.println(i);
+        for (String i : s.solution(strings, n)) System.out.println(i);
     }
 }
