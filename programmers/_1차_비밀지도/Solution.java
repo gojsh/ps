@@ -9,7 +9,6 @@ class Solution {
             answer[i] = Integer.toBinaryString(arr1[i] | arr2[i]);
             answer[i] = answer[i].replace('0', ' ');
             answer[i] = answer[i].replace('1', '#');
-
             while (answer[i].length() < n) {
                 answer[i] = ' ' + answer[i];
             }
