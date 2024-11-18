@@ -16,7 +16,6 @@ class Solution {
             if (answers[i] == three[i % 10]) score[2]++;
         }
 
-        for (int i = 0; i < score.length; i++) System.out.println(score[i]);
 
         int max = Math.max(score[0], Math.max(score[1], score[2]));
 
