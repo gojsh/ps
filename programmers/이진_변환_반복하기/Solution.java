@@ -7,9 +7,10 @@ class Solution {
         int[] answer = new int[2];
         int convert = 0;
         int cnt = 0;
-        int l = 0;
+        int l;
         while(!s.equals("1")) {
             convert++;
+            l = 0;
             for(int i=0; i<s.length(); i++) {
                 if(s.charAt(i) == '0') cnt++;
                 else l++;
