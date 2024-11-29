@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 class Solution {
     public int solution(int n) {
-        int answer = 0;
+        int answer;
         int[] arr = new int[n+1];
         arr[0] = 0;
         arr[1] = 1;
