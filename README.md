@@ -20,6 +20,7 @@
 - 삼총사 (DFS)
 - 1차 비밀지도
 - 실패율
+- 점프와_순간_이동 (top-bottom)
 
 **inflearn**
 - all
