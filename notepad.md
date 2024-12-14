@@ -1,6 +1,11 @@
-7
-1 5 2 6 3 7 4
-2
 3
-2 5 3
-4 4 1
+9
+tank
+kick
+know
+wheel
+land
+deram
+mother
+robot
+tank
