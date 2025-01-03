@@ -9,7 +9,7 @@ class Solution {
         answer[2] = 2;
 
         for (int i = 3; i < 2001; i++) {
-            answer[i] = (answer[i - 1] + answer[i - 2] % 1234567);
+            answer[i] = (answer[i - 1] + answer[i - 2]) % 1234567;
         }
         return answer[n];
     }
