@@ -1,8 +1,23 @@
 package ps.programmers;
 
+import java.util.Scanner;
+
 class Solution {
     public long solution(int n) {
-        long answer = 0;
-        return answer;
+        long[] answer = new long[2001];
+        answer[1] = 1;
+        answer[2] = 2;
+
+        for (int i = 3; i < 2001; i++) {
+            answer[i] = (answer[i - 1] + answer[i - 2] % 1234567);
+        }
+        return answer[n];
+    }
+
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        Scanner kb = new Scanner(System.in);
+        int n = kb.nextInt();
+        System.out.println(s.solution(n));
     }
 }
