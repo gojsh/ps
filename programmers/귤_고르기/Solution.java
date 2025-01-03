@@ -1,4 +1,4 @@
-package ps.inflearn.귤_고르기;
+package ps.programmers.귤_고르기;
 
 import java.util.*;
 
