@@ -21,3 +21,4 @@ class Solution {
         System.out.println(s.solution(n));
     }
 }
+
