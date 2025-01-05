@@ -1,4 +1,4 @@
-package ps.programmers;
+package ps.programmers.멀리_뛰기;
 
 import java.util.Scanner;
 
