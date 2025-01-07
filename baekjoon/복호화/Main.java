@@ -7,12 +7,12 @@ import java.io.InputStreamReader;
 class Main {
     public String solution(String[] str) {
         String answer = "";
-        for (int i = 0; i < str.length; i++) {
+        for (String s : str) {
             int[] arr = new int[26];
             int max = 0;
             int count = 0;
 
-            String text = str[i].replace(" ", "");
+            String text = s.replace(" ", "");
 
             for (int j = 0; j < text.length(); j++) {
                 arr[text.charAt(j) - 'a']++;
